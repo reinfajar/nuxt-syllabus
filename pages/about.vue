@@ -15,9 +15,3 @@
     <BaseButton to="/contact">Go to Contact</BaseButton>
   </div>
 </template>
-
-<script setup>
-useHead({
-  title: 'About'
-})
-</script>
