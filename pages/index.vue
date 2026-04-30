@@ -6,7 +6,7 @@
   <div>
     <section class="hero">
       <p class="hero-kicker">Simple Company Profile</p>
-      <h2 class="hero-title">Welcome to White Belt Company</h2>
+      <h2 class="hero-title">Welcome to Nuxt Syllabus Company</h2>
       <p class="hero-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.

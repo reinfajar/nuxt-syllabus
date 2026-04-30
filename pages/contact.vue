@@ -3,7 +3,7 @@
   <div>
     <BaseCard title="Contact Information">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p>Email: hello@whitebeltcompany.com</p>
+      <p>Email: hello@company.com</p>
       <p>Phone: +62 21 1234 5678</p>
       <p>Address: Lorem Ipsum Street No. 123, Jakarta</p>
     </BaseCard>
