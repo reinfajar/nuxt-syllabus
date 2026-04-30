@@ -9,6 +9,6 @@ export default defineNuxtModule({
     // Minimal module example:
     // Add a default title template globally.
     nuxt.options.app.head = nuxt.options.app.head || {}
-    nuxt.options.app.head.titleTemplate = '%s - White Belt Company'
+    nuxt.options.app.head.titleTemplate = '%s - Nuxt Syllabus Company'
   }
 })
