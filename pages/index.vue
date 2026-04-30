@@ -14,19 +14,26 @@
       <BaseButton to="/about">Learn More</BaseButton>
     </section>
 
-    <!-- Auto-import demo: BaseCard is used without manual import -->
-    <BaseCard title="Our Intro">
+    <!--
+      LazyBaseCard: prefix 'Lazy' to defer loading the component
+      until it is actually needed — this is Nuxt's built-in lazy loading.
+    -->
+    <LazyBaseCard title="Our Intro">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris.
       </p>
-    </BaseCard>
+    </LazyBaseCard>
   </div>
 </template>
 
 <script setup>
+// useHead: sets dynamic <title> and <meta> tags for SEO.
 useHead({
-  title: 'Home'
+  title: 'Home',
+  meta: [
+    { name: 'description', content: 'Welcome to Nuxt Company — a beginner-friendly Nuxt 3 project demo.' }
+  ]
 })
 </script>

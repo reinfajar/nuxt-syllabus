@@ -6,6 +6,49 @@
   --primary: #0b7285;
   --primary-dark: #095c6b;
   --border: #d9e2ec;
+  --success: #1b6e3d;
+  --error: #9b1c1c;
+  --warning-bg: #fef3c7;
+}
+
+/* --- State boxes (loading / error) --- */
+
+.state-box {
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.state-loading {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.state-error {
+  background: #fee2e2;
+  color: var(--error);
+}
+
+/* --- Posts list --- */
+
+.post-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.post-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.post-excerpt {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 * {

@@ -11,6 +11,7 @@
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
         <NuxtLink to="/contact">Contact</NuxtLink>
+        <NuxtLink to="/posts">Posts</NuxtLink>
       </nav>
     </header>
 
@@ -24,3 +25,19 @@
     </footer>
   </div>
 </template>
+
+<style>
+/*
+  Layout transition: smooth fade when switching between different layouts.
+  Configured in nuxt.config.ts under app.layoutTransition.
+*/
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+}
+</style>

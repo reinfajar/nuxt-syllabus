@@ -17,7 +17,11 @@
 </template>
 
 <script setup>
+// useHead: dynamic per-page title and SEO description.
 useHead({
-  title: 'About'
+  title: 'About',
+  meta: [
+    { name: 'description', content: 'Learn more about Nuxt Company — our story and mission.' }
+  ]
 })
 </script>

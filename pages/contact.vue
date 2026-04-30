@@ -13,7 +13,11 @@
 </template>
 
 <script setup>
+// useHead: each page sets its own unique title and description.
 useHead({
-  title: 'Contact'
+  title: 'Contact',
+  meta: [
+    { name: 'description', content: 'Get in touch with Nuxt Company.' }
+  ]
 })
 </script>

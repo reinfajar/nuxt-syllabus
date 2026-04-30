@@ -7,5 +7,10 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   // Register one simple custom module to show how modules work.
-  modules: ['~/modules/company-module']
+  modules: ['~/modules/company-module'],
+
+  // Layout transition: fades the entire layout wrapper on layout changes.
+  app: {
+    layoutTransition: { name: 'layout', mode: 'out-in' }
+  }
 })
